@@ -161,7 +161,7 @@ def player_numbers(name)
   end
 end
 end
-  return jersey_numbers.sort
+  return jersey_numbers
 end
 
 def player_stats(name)
@@ -247,5 +247,5 @@ def player_with_longest_name
            end
          end
        end
- player_with_longest_name() == stealer
+ player_with_longest_name == stealer
  end
